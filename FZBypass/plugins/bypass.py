@@ -20,10 +20,10 @@ async def start_msg(client, message):
     
     <i><b>Bot Started {convert_time(time() - BOT_START)} ago...</b></i>
 
-🛃 <b>Use Me Here :</b> @CyberPunkGrp <i>(Bypass Topic)</i>''',
+🛃 <b>Use Me Here :</b> @kawindeveloper <i>(Bypass Topic)</i>''',
         quote=True,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton('🎓 Dev', url='https://t.me/SilentDemonSD'), InlineKeyboardButton('🔍 Deploy Own', url="https://github.com/SilentDemonSD/FZBypassBot")]
+            [InlineKeyboardButton('🎓 Dev', url='https://t.me/kawindeveloper'), InlineKeyboardButton('🔍 Deploy Own', url="https://t.me/kawindeveloper")]
             ])
     )
 
@@ -154,7 +154,7 @@ async def inline_query(client, query):
                 ),
                 description="Bypass via !bp [link]",
                 reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("FZ Channel", url="https://t.me/FXTorrentz"),
+                        [InlineKeyboardButton("FZ Channel", url="https://t.me/kawindeveloper"),
                         InlineKeyboardButton('Try Bypass', switch_inline_query_current_chat="!bp ")]
                 ])
             ))
